@@ -281,8 +281,6 @@ body {
 }
 @media screen and (max-width: 500px) {
 	.page-wrapper {
-		margin: 10px;
-		padding: 10px;
 		width: 500px;
 	}
 /*====================================*/	
