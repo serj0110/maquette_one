@@ -1,0 +1,347 @@
+﻿@charset "utf-8";
+/* CSS Document 3d6cb0*/
+body {
+	margin: 0;
+    font-family: "Myriad Pro Light SemiExt", monospace;
+	font-size: 14px;
+	/*background: url(cv.png) no-repeat;*/
+}
+.page-wrapper {
+	margin: 10px;
+	padding: 10px;
+}
+/*====================================*/
+/*Левый блок*/
+.left {
+	float: left;
+	width: 36.5%;
+	padding: 68px 25px 30px 38px;
+}
+	/*Общий блок с фото и текстом*/
+	.photo {
+		position: relative;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+		/*Блок с фото*/
+		.photo-image {
+			position: relative;
+			margin: 0 auto;
+			border: 1px solid #3d6cb0;
+			height: 239px;
+			width: 240px;
+			border-radius: 120px;
+			background: #ffffff url(1.png) no-repeat;
+			background-position: center;
+			background-size: 209px;
+		}
+		/*Блок для текста*/
+		.photo-info {
+			position: relative;
+			width: 94%;
+			margin: 0 auto;
+			margin-top: 30px;
+			height: 150px;
+			margin-bottom: 30px;
+		}
+			/*Блок под именя*/
+			.photo-name {
+				width: 100%;
+				height: 50px;
+				font-weight: normal;
+				font-size: 60px;
+				letter-spacing: 0px;
+				line-height: 47px;
+				text-align: center;
+			}
+			/*Блок под фимилию*/
+			.photo-surname {
+				width: 100%;
+				height: 60px;
+				font-weight: bold;
+				font-size: 69px;
+				letter-spacing: -4px;
+				line-height: 53px;
+				text-align: center;
+			}
+			/*Блок под текст*/
+			.photo-text {
+				width: 100%;
+				height: 35px;
+				font-weight: bold;
+				font-size: 30px;
+				letter-spacing: -1px;
+				line-height: 35px;
+				text-align: center;
+			}
+	/*Общий блок профиля*/
+	.profile {
+		position: relative;
+		margin: 0 auto;
+		width: 100%;
+
+	}
+		/*Блок для заголовков*/
+		.title {
+			margin-top: 4px;
+			margin-left: 1px;
+			width: 95.5%;
+			height: 74px;
+			border: 1px solid #ffffff;
+		}
+			/*Иконка заголовка для профиля*/
+			.profile .title-icon {
+				width: 74px;
+				height: 74px;
+				border-radius: 37px;
+				background: #ffffff url(2.png) no-repeat;
+				background-position: center;
+				background-size: 74px 74px;
+				float: left;
+			}
+			/*Блок с текстом для заголовка*/
+			.title-text {
+				margin-left: 10px;
+				margin-right: 10px;
+				height: 74px;
+				width: auto;
+				font-weight: bold;
+				color: #3d6cb0;
+				font-size: 45px;
+				line-height: 70px;
+				letter-spacing: -4px;
+				float: left;
+			}
+			/*Линия рядом с заголовком*/
+			.title-line {
+				border: 0;
+				margin-top: 33px;
+				height: 5px;
+				width: auto;
+				background: #3d6cb0;
+			}
+		/*Блок с текстом*/
+		.profile-article {
+			margin-top: 10px;
+			margin-left: 1px;
+			width: 95.5%;
+			height: auto;
+			text-align: left;
+			word-spacing: 0px;
+			letter-spacing: -0px;
+			margin-bottom: 10px;
+		}
+	/*Общий блок контактов*/
+	.contact {
+		position: relative;
+		margin: 0 auto;
+		margin-top: 23px;
+		width: 100%;
+		height: auto;
+	}
+		/*Иконка заголовка для контактов*/
+		.contact .title-icon {
+				width: 74px;
+				height: 74px;
+				border-radius: 37px;
+				background: #ffffff url(3.png) no-repeat;
+				background-position: center;
+				background-size: 74px 74px;
+				float: left;
+			}
+		/*Блок с текстом*/
+		.contact-article {
+			margin-left: 1px;
+			margin-bottom: 10px;
+			width: 95.5%;
+			height: auto;
+		}
+			/*Строка с информацией*/
+			.contact-info {
+				width: 99%;
+				height: auto;
+				margin-top: 29.5px;
+			}
+				/*Блок с названием контакта*/
+				.contact-name {
+					width: 25%;
+					height: 23px;
+					font-size: 23px;
+					font-weight: bold;
+					color: #3d6cb0;
+					line-height: 25px;
+					margin-right: 23px;
+					float: left;
+				}
+				/*Блок с текстом под контакт*/
+				.contact-text {
+					width: 68%;
+					height: 23px;
+					font-size: 20px;
+					line-height: 20px;
+					float: left;
+				}
+	/*Блок с навыками*/
+	.skills {
+		position: relative;
+		margin: 0 auto;
+		margin-top: 30px;
+		width: 100%;
+		height: auto;
+	}
+		/*Иконка заголовка для навыков*/
+		.skills .title-icon {
+				width: 74px;
+				height: 74px;
+				border-radius: 37px;
+				background: #ffffff url(4.png) no-repeat;
+				background-position: center;
+				background-size: 74px 74px;
+				float: left;
+			}
+		/*Блок под навыки*/
+		.skills-article {
+			margin-left: 1px;
+			margin-top: 20px;
+			width: 95.5%;
+			height: auto;
+		}
+			/*Блок под каждый навык*/
+			.skills-info {
+				margin-left: 1px;
+				margin-bottom: 17px;
+				width: 99%;
+				height: 60px;
+			}
+				/*Блок под название навыка*/
+				.skills-name {
+					width: 100%;
+					height: 28px;
+					text-align: center;
+					font-size: 28px;
+					line-height: 28px;
+				}
+				/*Блок под уровень навыка*/
+				.skills-level {
+					margin-top: 7.5px;
+					width: 100%;
+					height: 20px;
+				}
+					/*обнуление границ списка*/
+					.skills-level ul {
+						padding: 0;
+						margin: 0 0 0 13%;
+					}
+						/*стандартный вид пункта*/
+						.skills ul li.default {
+							list-style: none;
+							background: #e6e6e6;
+							border-radius: 10px;
+							height: 20px;
+							width: 20px;
+							float: left;
+							margin-right: 1.8%;
+						}
+						/*активный вид пункта*/
+						.skills ul li.active {
+							list-style: none;
+							background: #3d6cb0;
+							border-radius: 10px;
+							height: 20px;
+							width: 20px;
+							float: left;
+							margin-right: 1.8%;
+						}
+/*====================================*/
+.right {
+	float: right;
+	width: 57%;
+}
+/*====================================*/
+.clearfix {
+	height: 10px;
+    background: #ffffff;
+    clear: both;
+    height: 0;
+}
+/*====================================*/
+@media screen and (max-width: 1090px) {
+	.page-wrapper {
+		margin: 10px;
+		padding: 10px;
+	}
+	.left {
+		width: auto;
+		float: none;
+	}
+	.right {
+		width: auto;
+		float: none;
+	}
+}
+@media screen and (max-width: 500px) {
+	.page-wrapper {
+		margin: 10px;
+		padding: 10px;
+		width: 500px;
+	}
+/*====================================*/	
+	.left {
+		width: auto;
+		float: none;
+	}
+	.photo {
+		position: relative;
+		width: 100%;
+		height: 450px;
+	}
+		.photo-image {
+			position: relative;
+			margin: 0 auto;
+			border: 1px solid #3d6cb0;
+			height: 239px;
+			width: 240px;
+			border-radius: 120px;
+			background: #ffffff url(1.png) no-repeat;
+			background-position: center;
+			background-size: 209px;
+		}
+		.photo-info {
+			width: 94%;
+			margin: 0 auto;
+			margin-top: 30px;
+			height: 150px;
+		}
+			.photo-name {
+				width: 100%;
+				height: 50px;
+				font-weight: normal;
+				font-size: 60px;
+				letter-spacing: 0px;
+				line-height: 47px;
+				text-align: center;
+			}
+			.photo-surname {
+				width: 100%;
+				height: 60px;
+				font-weight: bold;
+				font-size: 69px;
+				letter-spacing: -4px;
+				line-height: 53px;
+				text-align: center;
+			}
+			.photo-text {
+				width: 100%;
+				height: 35px;
+				font-weight: bold;
+				font-size: 30px;
+				letter-spacing: -1px;
+				line-height: 35px;
+				text-align: center;
+			}
+/*====================================*/	
+	.right {
+		width: 500px;
+		float: none;
+	}
+}
