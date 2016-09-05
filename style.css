@@ -134,7 +134,7 @@ body {
 	.contact {
 		position: relative;
 		margin: 0 auto;
-		margin-top: 41px;
+		margin-top: 30px;
 		width: 100%;
 		height: auto;
 	}
@@ -183,7 +183,7 @@ body {
 	/*Блок с навыками*/
 	.skills {
 		position: relative;
-		margin-top: 50px;
+		margin-top: 30px;
 		width: 100%;
 		height: auto;
 	}
@@ -222,13 +222,12 @@ body {
 				/*Блок под уровень навыка*/
 				.skills-level {
 					margin-top: 7.5px;
-					width: 100%;
+					width: auto;
 					height: 20px;
 				}
 					/*обнуление границ списка*/
 					.skills-level ul {
 						padding: 0;
-						margin: 0 0 0 13%;
 					}
 						/*стандартный вид пункта*/
 						.skills ul li.default {
@@ -262,7 +261,6 @@ body {
 		position: relative;
 		width: 99%;
 		height: auto;
-		margin-bottom: 43px;
 	}
 		/*Измененый блок заголовка*/
 		.right .title {
@@ -335,7 +333,6 @@ body {
 							color: #000000;
 							line-height: 18px;
 							float: left;
-							margin-right: 15px;
 						}
 					/*Название учебного заведения*/
 					.overall-text-2 {
@@ -358,7 +355,7 @@ body {
 		position: relative;
 		width: 99%;
 		height: auto;
-		margin-bottom: 44px;
+		margin-top: 30px;
 	}
 		.experience .title {
 			width: 95%;
@@ -391,6 +388,7 @@ body {
 	.software {
 		width: 99%;
 		height: auto;
+		margin-top: 30px;
 	}
 		.software .title {
 			width: 95%;
@@ -483,7 +481,113 @@ body {
     height: 0;
 }
 /*====================================*/
-@media screen and (max-width: 1090px) {
+@media screen and (max-width: 1080px) {
+	.education .overall-text-title {
+		width: auto;
+		height: auto;
+		font-size: 18px;
+		font-weight: bold;
+		color: #3d6cb0;
+		line-height: 18px;
+		float: left;
+		margin-right: 2%;
+	}
+	.overall-text-time {
+		width: auto;
+		height: auto;
+		font-size: 18px;
+		color: #000000;
+		line-height: 18px;
+		float: left;
+	}
+	.experience .overall-text-title {
+		width: auto;
+		height: auto;
+		font-size: 18px;
+		font-weight: bold;
+		color: #000000;
+		line-height: 18px;
+		float: left;
+		margin-right: 2%;
+	}
+	.overall-text-2 {
+						height: auto;
+						margin-bottom: 12px;
+						font-size: 18px;
+						line-height: 20px;
+					}
+}
+@media screen and (max-width: 1024px) {
+	.contact-name {
+					width: 25%;
+					height: 23px;
+					font-size: 18px;
+					font-weight: bold;
+					color: #3d6cb0;
+					line-height: 25px;
+					margin-right: 15px;
+					float: left;
+				}
+	.contact-text {
+					width: 68%;
+					height: 23px;
+					font-size: 18px;
+					line-height: 23px;
+					float: left;
+				}
+}
+@media screen and (max-width: 950px) {
+	.photo-name {
+				width: 100%;
+				height: 30px;
+				font-weight: normal;
+				font-size: 35px;
+				letter-spacing: 0px;
+				line-height: 30px;
+				text-align: center;
+			}
+	.photo-surname {
+				width: 100%;
+				height: 30px;
+				font-weight: bold;
+				font-size: 35px;
+				letter-spacing: -2px;
+				line-height: 30px;
+				text-align: center;
+			}
+	.photo-text {
+				width: 100%;
+				height: 15px;
+				font-weight: bold;
+				font-size: 20px;
+				letter-spacing: -1px;
+				line-height:15px;
+				text-align: center;
+			}
+	.skills-level ul {
+						padding: 0;
+						margin: 0 auto;
+					}
+	.skills ul li.default {
+							list-style: none;
+							background: #e6e6e6;
+							border-radius: 9px;
+							height: 18px;
+							width: 18px;
+							float: left;
+							margin-right: 1.8%;
+						}
+	.skills ul li.active {
+							list-style: none;
+							background: #3d6cb0;
+							border-radius: 9px;
+							height: 18px;
+							width: 18px;
+							float: left;
+							margin-right: 1.8%;
+						}
+}
+@media screen and (max-width: 890px) {
 	.page-wrapper {
 		margin: 10px;
 		padding: 10px;
@@ -493,11 +597,178 @@ body {
 		float: none;
 		padding: 0;
 	}
+	.photo-image {
+			position: relative;
+			margin: 0 auto;
+			border: 1px solid #3d6cb0;
+			height: 209px;
+			width: 210px;
+			border-radius: 120px;
+			background: #ffffff url(1.png) no-repeat;
+			background-position: center;
+			background-size: 179px;
+		}
+	.photo-name {
+				width: 100%;
+				height: 50px;
+				font-weight: normal;
+				font-size: 30px;
+				letter-spacing: 0px;
+				line-height: 47px;
+				text-align: center;
+			}
+	.photo-surname {
+				width: 100%;
+				height: 65px;
+				font-weight: bold;
+				font-size: 50px;
+				letter-spacing: -4px;
+				line-height: 53px;
+				text-align: center;
+			}
+	.photo-text {
+				width: 100%;
+				height: 35px;
+				font-weight: bold;
+				font-size: 20px;
+				letter-spacing: -1px;
+				line-height: 35px;
+				text-align: center;
+			}
+	.title-text {
+				margin-left: 10px;
+				margin-right: 10px;
+				height: 74px;
+				width: auto;
+				font-weight: bold;
+				color: #3d6cb0;
+				font-size: 14px;
+				line-height: 70px;
+				letter-spacing: -1px;
+				float: left;
+			}
+	.contact-name {
+					width: auto;
+					height: 23px;
+					font-size: 15px;
+					font-weight: bold;
+					color: #3d6cb0;
+					line-height: 25px;
+					margin-right: 1%;
+					float: left;
+				}
+	.contact-text {
+					width: auto;
+					height: 23px;
+					font-size: 15px;
+					line-height: 23px;
+					float: left;
+				}
+	.skills-level {
+					margin-top: 7.5px;
+					width: 100%;
+					height: 14px;
+				}
+	.skills-name {
+					width: 100%;
+					height: 23px;
+					text-align: left;
+					font-size: 20px;
+					line-height: 23px;
+				}
+	.skills-level ul {
+						padding: 0;
+						margin: 0 auto;
+					}
+	.skills ul li.default {
+							list-style: none;
+							background: #e6e6e6;
+							border-radius: 6px;
+							height: 12px;
+							width: 12px;
+							float: left;
+							margin-right: 1.8%;
+						}
+	.skills ul li.active {
+							list-style: none;
+							background: #3d6cb0;
+							border-radius: 6px;
+							height: 12px;
+							width: 12px;
+							float: left;
+							margin-right: 1.8%;
+						}
+/*====================================*/	
 	.right {
 		width: auto;
 		float: none;
 		padding: 0;
 	}
+	.education .overall-text-title {
+							width: auto;
+							height: auto;
+							font-size: 15px;
+							font-weight: bold;
+							color: #3d6cb0;
+							line-height: 18px;
+							float: left;
+							margin-right: 2%;
+							word-spacing: -4px;
+							letter-spacing: -1px;
+						}
+	.experience .overall-text-title {
+							width: auto;
+							height: auto;
+							font-size: 15px;
+							font-weight: bold;
+							color: #000000;
+							line-height: 18px;
+							float: left;
+							margin-right: 2%;
+							word-spacing: -4px;
+							letter-spacing: -1px;
+		}
+	.overall-text-time {
+							width: auto;
+							height: auto;
+							font-size: 15px;
+							color: #000000;
+							line-height: 18px;
+							float: left;
+							margin-right: 15px;
+							word-spacing: -4px;
+							letter-spacing: -1px;
+						}
+	.overall-text-2 {
+						height: auto;
+						margin-bottom: 12px;
+						font-size: 15px;
+						line-height: 20px;
+						word-spacing: -4px;
+						letter-spacing: -1px;
+					}
+	.software-left {
+				width: auto;
+				height: auto;
+				float: none;
+				margin: 0;
+			}
+	.software-right {
+				width: auto;
+				height: auto;
+				float: none;
+			}
+	.software-info {
+					width: 100%;
+					height: auto;
+					margin-bottom: 15px;
+				}
+	.software-title {
+						height: auto;
+						font-size: 20px;
+						line-height: 20px;
+						margin-bottom: 5px;
+					}
 }
 @media screen and (max-width: 500px) {
 	.page-wrapper {
@@ -538,6 +809,15 @@ body {
 				line-height: 53px;
 				text-align: center;
 			}
+	.photo-text {
+				width: 100%;
+				height: 35px;
+				font-weight: bold;
+				font-size: 20px;
+				letter-spacing: -1px;
+				line-height: 35px;
+				text-align: center;
+			}
 	.title-text {
 				margin-left: 10px;
 				margin-right: 10px;
@@ -549,15 +829,6 @@ body {
 				line-height: 70px;
 				letter-spacing: -1px;
 				float: left;
-			}
-	.photo-text {
-				width: 100%;
-				height: 35px;
-				font-weight: bold;
-				font-size: 20px;
-				letter-spacing: -1px;
-				line-height: 35px;
-				text-align: center;
 			}
 	.contact-name {
 					width: auto;
@@ -662,18 +933,17 @@ body {
 				width: auto;
 				height: auto;
 				float: none;
-				margin-left: 0.8%;
+			}
+	.software-right {
+				width: auto;
+				height: auto;
+				float: none;
 			}
 	.software-info {
 					width: 100%;
 					height: auto;
 					margin-bottom: 15px;
 				}
-	.software-right {
-				width: auto;
-				height: auto;
-				float: none;
-			}
 	.software-title {
 						height: auto;
 						font-size: 20px;
