@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* Левый блок */
+.left {
+	float: left;
+	width: 36.5%;
+	padding: 70px 25px 30px 40px;
+}
+.photo {
+	position: relative;
+	width: 100%;
+	margin-bottom: 76px;
+}
+.photo-image {
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid #3d6cb0;
+	height: 239px;
+	width: 240px;
+	border-radius: 120px;
+	background: #ffffff url(../image/photo.png) no-repeat;
+	background-position: center;
+	background-size: 209px;
+}
+.photo-info {
+	position: relative;
+	width: 94%;
+	margin: 0 auto;
+	margin-top: 33px;
+	height: auto;
+	margin-bottom: 30px;
+}
+.photo-name {
+	width: 100%;
+	height: auto;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 47px;
+	text-align: center;
+}
+.photo-surname {
+	font-family: "MyriadPro-Bold";
+	width: 100%;
+	height: auto;
+	font-size: 65px;
+	line-height: 53px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.photo-text {
+	font-family: "MyriadPro-Bold";
+	width: 100%;
+	height: auto;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 35px;
+	text-align: center;
+}
+.profile {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.left .title {
+	margin-top: 4px;
+	width: 95.5%;
+	height: auto;
+	border: 1px solid #ffffff;
+}
+.profile .title-icon {
+	width: 74px;
+	height: 74px;
+	border-radius: 37px;
+	background: #ffffff url(../image/profile.png) no-repeat;
+	background-position: center;
+	background-size: 74px 74px;
+	float: left;
+}
+.title-text {
+	font-family: "MyriadPro-Bold";
+	margin-left: 10px;
+	margin-right: 10px;
+	height: auto;
+	width: auto;
+	font-weight: bold;
+	color: #3d6cb0;
+	font-size: 40px;
+	line-height: 74px;
+	float: left;
+}
+.title-line {
+	border: 0;
+	margin-top: 36px;
+	height: 5px;
+	width: auto;
+	background: #3d6cb0;
+}
+.profile-article {
+	margin-top: 10px;
+	margin-left: 1px;
+	font-size: 14px;
+	width: 95.5%;
+	height: auto;
+	text-align: left;
+	word-spacing: 0px;
+	letter-spacing: -0px;
+	margin-bottom: 10px;
+}
+.contact {
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 100%;
+	height: auto;
+}
+.contact .title-icon {
+	width: 74px;
+	height: 74px;
+	border-radius: 37px;
+	background: #ffffff url(../image/contact.png) no-repeat;
+	background-position: center;
+	background-size: 74px 74px;
+	float: left;
+}
+.contact-article {
+	margin: 30px 0 10px 1px;
+	width: 95.5%;
+	height: auto;
+}
+.contact-info {
+	width: 99%;
+	height: auto;
+	margin-bottom: 34px;
+}
+.contact-name {
+	font-family: "MyriadPro-Bold";
+	width: 25%;
+	height: auto;
+	font-size: 25px;
+	font-weight: bold;
+	color: #3d6cb0;
+	line-height: 25px;
+	margin-right: 23px;
+	float: left;
+}
+.contact-text {
+	width: auto;
+	height: auto;
+	font-size: 23px;
+	line-height: 23px;
+	float: left;
+}
+.skills {
+	position: relative;
+	margin-bottom: 30px;
+	width: 100%;
+	height: auto;
+}
+.skills .title-icon {
+	width: 74px;
+	height: 74px;
+	border-radius: 37px;
+	background: #ffffff url(../image/skills.png) no-repeat;
+	background-position: center;
+	background-size: 74px 74px;
+	float: left;
+}
+.skills-article {
+	margin-left: 1px;
+	margin-top: 25px;
+	width: 95.5%;
+	height: auto;
+}
+.skills-info {
+	margin: 0 auto;
+	margin-bottom: 18px;
+	width: 310px;
+	height: 60px;
+	text-align: center;
+}
+.skills-name {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 28px;
+	line-height: 28px;
+}
+.skills-level {
+	position: relative;
+	margin-top: 7.5px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.skills-level ul {
+	padding: 0;
+}
+.skills ul li.default {
+	list-style: none;
+	background: #e6e6e6;
+	border-radius: 10px;
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin-right: 1.8%;
+}
+.skills ul li.active {
+	list-style: none;
+	background: #3d6cb0;
+	border-radius: 10px;
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin-right: 1.8%
+}
