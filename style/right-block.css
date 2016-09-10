@@ -57,7 +57,7 @@
 	margin-bottom: 12px;
 }
 .education .overall-text-title {
-	font-family: "MyriadPro-Bold";
+	font-family: 'MPB';
 	width: auto;
 	height: auto;
 	font-size: 25px;
@@ -105,7 +105,7 @@
 	float: left;
 }
 .experience .overall-text-title {
-	font-family: "MyriadPro-Bold";
+	font-family: 'MPB';
 	width: auto;
 	height: auto;
 	font-size: 25px;
