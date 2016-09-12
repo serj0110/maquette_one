@@ -1,0 +1,41 @@
+@media screen and (max-width: 1024px) {
+  .left .photo .photo-info .photo-name {
+    font-size: 50px;
+  }
+  .left .photo .photo-info .photo-surname {
+    font-size: 59px;
+  }
+  .left .photo .photo-info .photo-text {
+    font-size: 20px;
+  }
+  .left .profile .title .title-text,
+  .left .contact .title .title-text,
+  .left .skills .title .title-text,
+  .right .education .title .title-text,
+  .right .experience .title .title-text,
+  .right .software .title .title-text {
+    font-size: 35px;
+  }
+  .left .contact .article .contact-info .contact-name {
+    font-size: 18px;
+    margin-right: 18px;
+  }
+  .left .contact .article .contact-info .contact-text {
+    font-size: 18px;
+  }
+  .right .software .article .info {
+    margin-right: 5%;
+  }
+  .right .education .article .info .text .text1 .text-title,
+  .right .experience .article .info .text .text1 .text-title {
+    font-size: 18px;
+  }
+  .right .education .article .info .text .text1 .text-time,
+  .right .experience .article .info .text .text1 .text-time {
+    font-size: 18px;
+  }
+  .right .education .article .info .text .text2,
+  .right .experience .article .info .text .text2 {
+    font-size: 18px;
+  }
+}

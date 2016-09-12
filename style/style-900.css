@@ -1,0 +1,40 @@
+@media screen and (max-width: 900px) {
+  .left {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .left .photo {
+    margin-bottom: 15px;
+  }
+  .left .photo .photo-info .photo-name {
+    font-size: 60px;
+  }
+  .left .photo .photo-info .photo-surname {
+    font-size: 69px;
+  }
+  .left .photo .photo-info .photo-text {
+    font-size: 30px;
+  }
+  .left .profile .title .title-text,
+  .left .contact .title .title-text,
+  .left .skills .title .title-text,
+  .left .education .title .title-text,
+  .left .experience .title .title-text,
+  .left .software .title .title-text {
+    font-size: 42px;
+  }
+  .right {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .right .education .article .info .text .text1 .text-title,
+  .right .experience .article .info .text .text1 .text-title {
+    font-size: 17px;
+  }
+  .right .education .article .info .text .text1 .text-time,
+  .right .experience .article .info .text .text1 .text-time {
+    font-size: 17px;
+  }
+}

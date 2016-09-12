@@ -1,0 +1,194 @@
+.right {
+  float: right;
+  width: 55.2%;
+  padding: 57px 0 20px 0;
+}
+.right .education .title,
+.right .experience .title,
+.right .software .title {
+  margin-bottom: 33px;
+  width: 95%;
+  height: auto;
+  border: 1px solid #fff;
+}
+.right .education .title .title-icon,
+.right .experience .title .title-icon,
+.right .software .title .title-icon {
+  width: 74px;
+  height: 74px;
+  border-radius: 37px;
+  background: #fff url("../image/image.png") no-repeat;
+  background-size: 545px;
+  float: left;
+}
+.right .education .title .title-text,
+.right .experience .title .title-text,
+.right .software .title .title-text {
+  font-family: "MPB";
+  margin: 0 10px;
+  height: auto;
+  width: auto;
+  color: #3d6cb0;
+  font-size: 40px;
+  line-height: 70px;
+  float: left;
+}
+.right .education .title .title-line,
+.right .experience .title .title-line,
+.right .software .title .title-line {
+  border: 0;
+  margin-top: 34px;
+  height: 5px;
+  width: auto;
+  background: #3d6cb0;
+}
+.right .education .article,
+.right .experience .article {
+  width: 95%;
+  height: auto;
+  margin-bottom: 12px;
+}
+.right .education .article .info,
+.right .experience .article .info {
+  width: 95%;
+  height: auto;
+  margin-bottom: 7px;
+}
+.right .education .article .info .image,
+.right .experience .article .info .image {
+  border: 1px solid #000;
+  background: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin: 0 15px 0 10px;
+  float: left;
+}
+.right .education .article .info .text,
+.right .experience .article .info .text {
+  width: calc(99% - 45px);
+  height: auto;
+  float: right;
+  margin-bottom: 12px;
+}
+.right .education .article .info .text .text1,
+.right .experience .article .info .text .text1 {
+  height: auto;
+  margin-bottom: 12px;
+}
+.right .education .article .info .text .text1 .text-title,
+.right .experience .article .info .text .text1 .text-title {
+  font-family: "MPB";
+  width: auto;
+  height: auto;
+  font-size: 25px;
+  line-height: 18px;
+  float: left;
+  margin-right: 2%;
+}
+.right .education .article .info .text .text1 .text-time,
+.right .experience .article .info .text .text1 .text-time {
+  width: auto;
+  height: auto;
+  font-size: 25px;
+  color: #000;
+  line-height: 18px;
+  float: left;
+}
+.right .education .article .info .text .text2,
+.right .experience .article .info .text .text2 {
+  height: auto;
+  margin-bottom: 12px;
+  font-size: 25px;
+  line-height: 20px;
+}
+.right .education .article .info .text .text3,
+.right .experience .article .info .text .text3 {
+  height: auto;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+.right .education {
+  position: relative;
+  width: 99%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.right .education .title .title-icon {
+  background-position: -314px 1px;
+}
+.right .education .article .info .text .text1 .text-title {
+  color: #3d6cb0;
+}
+.right .experience {
+  position: relative;
+  width: 99%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.right .experience .title .title-icon {
+  background-position: -393px 1px;
+}
+.right .experience .article .info .text .text1 .text-title {
+  color: #000;
+}
+.right .software {
+  width: 99%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.right .software .title .title-icon {
+  background-position: -472px 1px;
+}
+.right .software .article {
+  width: 97.5%;
+  height: auto;
+}
+.right .software .article .info {
+  display: inline-block;
+  width: 44%;
+  height: auto;
+  margin: 0 30px 32px 0;
+}
+.right .software .article .info .title {
+  height: auto;
+  font-size: 25px;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+.right .software .article .info .skill {
+  width: 100%;
+  height: 20px;
+  background: #e6e6e6;
+}
+.right .software .article .info .photoshop {
+  margin-top: -20px;
+  width: 90%;
+  background: #3d6cb0;
+}
+.right .software .article .info .illustrator {
+  margin-top: -20px;
+  width: 69%;
+  background: #3d6cb0;
+}
+.right .software .article .info .indesign {
+  margin-top: -20px;
+  width: 55.5%;
+  background: #3d6cb0;
+}
+.right .software .article .info .dreamweaver {
+  margin-top: -20px;
+  width: 82%;
+  background: #3d6cb0;
+}
+.right .software .article .info .aftereffects {
+  margin-top: -20px;
+  width: 61%;
+  background: #3d6cb0;
+}
+.right .software .article .info .html-css {
+  margin-top: -20px;
+  width: 90%;
+  background: #3d6cb0;
+}
